@@ -1,0 +1,25 @@
+/* Movies */
+
+
+.Movies {
+    .Movies__container {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .Movies__item {
+        background:#e9e9e9;
+        border: 1px solid black;
+        padding:1rem;
+        display:flex;
+        flex-direction:column;
+
+        h3 {
+            margin-bottom:1rem;
+            &.special-h3 {
+                color:red;
+            }
+        }
+    }
+}
