@@ -1,7 +1,7 @@
 import './assets/scss/index.scss';
-import { useEffect, useState } from 'react';
-import ClipLoader from "react-spinners/ClipLoader";
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Movies from "./components/pages/movies";
 import About from "./components/pages/about";
 import Layout from "./components/layout/main";

@@ -39,7 +39,7 @@ function Movies() {
                   <div key={i} className="Movies__item">
                     
                     <h3 className={i === 0 ? 'special-h3' : ''}>{movie.title}</h3>
-                    <img src={movie.images[0].url} width="100" />
+                    <img src={movie.images[0].url} alt='ony' width="100" />
                   </div> 
                 )
               })
